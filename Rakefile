@@ -5,7 +5,7 @@ require 'rake/testtask'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "nyc-ruby-meetu_cijoe"
+    gem.name = "nyc-ruby-meetup_cijoe"
     gem.summary = %Q{An extension of the cijoe project}
     gem.description = %Q{An extension of the cijoe project now more descriptive}
     gem.email = "mjording@opengotham.com"
