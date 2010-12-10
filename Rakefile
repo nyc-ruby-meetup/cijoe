@@ -17,8 +17,8 @@ begin
     gem.add_dependency "sinatra"
     gem.files = Dir.glob('lib/**/*.rb')
     gem.files = Dir.glob('lib/**/**/*')
-    gem.executables        = %w(cijoe)
-    gem.default_executable = "cijoe"
+    gem.executables        = %w(cicobra)
+    gem.default_executable = "cicobra"
     gem.require_paths      = ["lib"]
   end
   Jeweler::GemcutterTasks.new

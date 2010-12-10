@@ -16,14 +16,14 @@ Quickstart
 
 RubyGems:
 
-    $ gem install cijoe
+    $ gem install nyc-ruby-meetup_cijoe
     $ git clone git://github.com/you/yourrepo.git
-    $ cijoe yourrepo
+    $ cicobra yourrepo
 
 Boom. Navigate to <http://localhost:4567> to see Joe in action.
-Check `cijoe -h` for other options.
+Check `cicobra -h` for other options.
 
-Basically you need to run `cijoe` and hand it the path to a git
+Basically you need to run `cicobra` and hand it the path to a git
 repo. Make sure this isn't a shared repo: Joe needs to own it.
 
 Joe looks for various git config settings in the repo you hand it. For
@@ -139,7 +139,7 @@ Daemonize
 
 Want to run Joe as a daemon? Use `nohup`:
 
-    $ nohup cijoe -p 4444 repo &
+    $ nohup cicobra -p 4444 repo &
 
 
 Other CI Servers
